@@ -96,11 +96,8 @@ f = simplegui.create_frame("STOPWATCH",200,200)
 
 # register event handlers
 
-
 f.set_draw_handler(draw)
 
 # start frame
 f.start()
 
-# Please remember to review the grading rubric
-"""
