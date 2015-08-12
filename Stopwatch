@@ -65,10 +65,6 @@ def reset():
     if timer:
         timer.cancel()
     
-    
-
-
-    
 button1 = Button(window, text = "Start", command = start)
 button1.grid(row = 1, column = 1)
 button2 = Button(window, text = "Stop", command = stop)
@@ -80,14 +76,11 @@ printVal(time)
 
 window.mainloop()
 
-
 # template for "Stopwatch: The Game"
-
 
 # define helper function format that converts time
 # in tenths of seconds into formatted string A:BC.D
 
-           
     
 # define event handlers for buttons; "Start", "Stop", "Reset"
 
